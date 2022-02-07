@@ -79,6 +79,7 @@ contract OneBitFriends is
         override(ERC721, ERC721URIStorage)
         returns (string memory)
     {
+        // TODO: Create a 16x16 SVG image based on a uint256 input saved
         return super.tokenURI(tokenId);
     }
 
